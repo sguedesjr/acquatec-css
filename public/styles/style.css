@@ -1,4 +1,75 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
+.card-cadastro {
+    background-color: #dcdcdc;
+    padding: 14px;
+    border-radius: 10px;
+    width: 110%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login{
+    justify-content: center;
+    padding: 5%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    color: #e4005a;
+    background-size: cover;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    height: 625px;
+}
+
+.container-login{
+    padding: 15%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-login {
+    background-color: #dcdcdc;
+    padding: 25px;
+    border-radius: 10px;
+    width: 110%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo input {
+    width: 600px;
+    margin: 0 auto 4%;
+    padding: 15px;
+    border-radius: 17px;
+    border: 3px solid #32b9cd;
+    text-align: center;
+    display: block;
+}
+
+.formulario .campo{
+    text-align: left;
+}
+
+.formulario .botao{
+    background-color:#e4005a ;
+    padding: 1%;
+    height: 25%;
+    width: 25%;
+    border-radius: 10px;
+    border:5px solid #e4005a;
+    color: white;
+    font-size: 25px;
+}
+
+ .formulario{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 body {
     margin:10;
@@ -6,6 +77,7 @@ body {
 }
 
 :root {
+
     --azul: #32b9cd;
     --amarelo: #e3b062;
 }
